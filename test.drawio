@@ -1,9 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="Page-1" id="hqK_GLjaACabrTPvpYSz">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="sourcePoint" />
+            <mxPoint x="260" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="A7bNzO1af_9fj3QUdXS8-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7bNzO1af_9fj3QUdXS8-6" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=30;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
